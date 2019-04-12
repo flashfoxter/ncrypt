@@ -9,6 +9,12 @@ Ncrypt is a zero-knowledge cloud notes app, where all user data is encrypted usi
 
 The app is hosted on AWS, where the user must sign in to obtain an access token that grants them access to the API.  The cloud password is derived from the encryption key through another round of the scrypt one-way function.  The user's password and encryption key are never exposed, thus neither the website owner nor AWS can view the plaintext context of the user's data.
 
+By design, there is no way to recover a lost password.  This is done to honor the user's privacy.
+
 Only a username and password is required to sign up, and no personal information is ever collected.  Ncrypt aims to set an example of how apps can provide a high level of privacy, anonymity, and security for all users.
 
-Ncrypt is a free service 
+Ncrypt is open source and offered as a free service, running thanks to your cryptocurrency donations.
+
+daniel@ncrypt.org
+BTC: 1HrQfojcRt4gGEZntEwp24KVrSch8mtqMk
+LTC: Lc5Mw23SWYJjX3Fx4Nw7J5PG4eyyG3Pow2
